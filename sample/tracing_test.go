@@ -18,7 +18,7 @@ func setup() {
 	}
 	err := telemetry.SetupTelemetry(ctx,
 		config.WithAttributes(customAttributes),
-		config.WithHTTPTraceEndpoint("localhost:55681"),
+		config.WithHTTPTraceEndpoint("localhost:4318"),
 	)
 	if err != nil {
 		log.Fatalf("error in setting up telemetry: %s", err.Error())
