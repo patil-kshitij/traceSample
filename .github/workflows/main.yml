@@ -36,8 +36,8 @@ jobs:
           echo test, and deploy your project.
       
       - name: otel-collector-action
-        uses: patil-kshitij/otel-collector-action@v1.1.0
+        uses: patil-kshitij/otel-collector-action@v1.2.0
         env:
           LOGICMONITOR_ACCOUNT: qauattraces02
-          LOGICMONITOR_BEARER_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          LOGICMONITOR_BEARER_TOKEN: ${{ secrets.QAUATTRACES02TOKEN }}
 
