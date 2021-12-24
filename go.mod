@@ -5,8 +5,6 @@ go 1.17
 require (
 	github.com/logicmonitor/lm-telemetry-sdk-go v0.0.0-20211105154300-610c28974e2d
 	go.opentelemetry.io/otel v1.0.0-RC3
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.0.0-RC3
-	go.opentelemetry.io/otel/sdk v1.0.0-RC3
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 )
 
@@ -14,16 +12,16 @@ require (
 	cloud.google.com/go v0.88.0 // indirect
 	github.com/aws/aws-sdk-go v1.40.41 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
-	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
 	go.opentelemetry.io/contrib/detectors/aws v0.22.0 // indirect
 	go.opentelemetry.io/contrib/detectors/aws/ecs v0.22.0 // indirect
 	go.opentelemetry.io/contrib/detectors/gcp v0.22.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.0.0-RC3 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.0.0-RC3 // indirect
+	go.opentelemetry.io/otel/sdk v1.0.0-RC3 // indirect
 	go.opentelemetry.io/otel/trace v1.0.0-RC3 // indirect
 	go.opentelemetry.io/proto/otlp v0.9.0 // indirect
 	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22 // indirect
