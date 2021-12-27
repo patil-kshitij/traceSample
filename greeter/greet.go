@@ -1,5 +1,5 @@
 package greeter
 
 func Greet() string {
-	return "This is v2 - test branch"
+	return "This is LM Specific change"
 }
